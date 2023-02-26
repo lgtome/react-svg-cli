@@ -62,13 +62,13 @@ react-svg-cli ... --extension=.js
 ### Example of in svg file:
 
 <center>
-  <img src="assets/inSvg.png" alt="in" /> 
+  <img src="https://raw.githubusercontent.com/lgtome/react-svg-cli/master/assets/inSvg.png" alt="in" /> 
 </center>
 
 ### Example of out svg component file:
 
 <center>
-  <img src="assets/outComponent.png" alt="out" /> 
+  <img src="https://raw.githubusercontent.com/lgtome/react-svg-cli/master/assets/outComponent.png" alt="out" /> 
 </center>
 
 ## <a name="contribution"></a>Contribution
