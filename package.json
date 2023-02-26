@@ -1,6 +1,6 @@
 {
     "name": "react-svg-cli",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "main": "./src/run.js",
     "license": "MIT",
     "scripts": {
@@ -23,9 +23,9 @@
     "files": [
         "LICENSE",
         "README.md",
-        "bin",
-        "src",
-        "assets"
+        "bin/",
+        "src/",
+        "assets/"
     ],
     "engines": {
         "node": "^12.22.0 || ^14.17.0 || >=16.0.0"
