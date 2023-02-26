@@ -61,11 +61,15 @@ react-svg-cli ... --extension=.js
 
 ### Example of in svg file:
 
-![Alt text](/assets/inSvg.png 'Optional Title')
+<center>
+  <img src="assets/inSvg.png" alt="in" /> 
+</center>
 
 ### Example of out svg component file:
 
-![Alt text](/assets/outComponent.png 'Optional Title')
+<center>
+  <img src="assets/outComponent.png" alt="out" /> 
+</center>
 
 ## <a name="contribution"></a>Contribution
 
