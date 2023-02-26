@@ -1,0 +1,15 @@
+{
+    "name": "react-svg-cli",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "dev": "node ./index.js",
+        "ex": "node ./bin/execute.js"
+    },
+    "dependencies": {
+        "minimist": "^1.2.8",
+        "prompts": "^2.4.2"
+    },
+    "type": "module"
+}
