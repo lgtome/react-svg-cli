@@ -1,6 +1,6 @@
 {
     "name": "react-svg-cli",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "main": "./src/run.js",
     "license": "MIT",
     "scripts": {
@@ -18,7 +18,7 @@
         "email": "seryikotenok232@gmail.com"
     },
     "bin": {
-        "svg-comp": "./bin/execute.js"
+        "react-svg-cli": "./bin/execute.js"
     },
     "files": [
         "LICENSE",

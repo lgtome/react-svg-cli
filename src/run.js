@@ -15,7 +15,7 @@ export async function run(options) {
 
     const inDirPath = resolve(absolutePath, inPath)
     const allFiles = await getFiles(inDirPath)
-    const flatFiles = allFiles.flat()
+    const flatFiles = allFiles.flat(Infinity)
 
     const svgFiles = flatFiles.filter(SVGFilesFilter())
 
