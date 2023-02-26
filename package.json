@@ -1,15 +1,53 @@
 {
     "name": "react-svg-cli",
     "version": "1.0.0",
-    "main": "index.js",
+    "main": "./src/run.js",
     "license": "MIT",
     "scripts": {
         "dev": "node ./index.js",
-        "ex": "node ./bin/execute.js"
+        "ex": "node ./bin/execute.js -o ./examples/outDir -d ./examples/test"
     },
     "dependencies": {
         "minimist": "^1.2.8",
         "prompts": "^2.4.2"
     },
-    "type": "module"
+    "type": "module",
+    "description": "CLI for creating react component from the svg file",
+    "author": {
+        "name": "lgtome",
+        "email": "seryikotenok232@gmail.com"
+    },
+    "bin": {
+        "svg-comp": "./bin/execute.js"
+    },
+    "files": [
+        "LICENSE",
+        "README.md",
+        "bin",
+        "src"
+    ],
+    "engines": {
+        "node": "^12.22.0 || ^14.17.0 || >=16.0.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "github.com/lgtome/react-svg-cli.git"
+    },
+    "homepage": "github.com/lgtome/react-svg-cli#readme",
+    "exports": {
+        ".": "./"
+    },
+    "keywords": [
+        "react-svg",
+        "svg",
+        "react-svg-component",
+        "svg-component",
+        "component",
+        "components",
+        "react create svg",
+        "create svg",
+        "create component from svg",
+        "svg component",
+        "component from svg"
+    ]
 }

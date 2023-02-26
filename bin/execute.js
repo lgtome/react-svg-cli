@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 import minimist from 'minimist'
 import { initConfig } from '../src/initializeConfig.js'
+import { checkArgs } from '../src/utils.js'
 import { run } from '../src/run.js'
 
 const absolutePath = process.cwd()
@@ -15,7 +16,7 @@ const options = {
     extension: e || extension,
     absolutePath,
 }
-console.log(argv)
+
 initialize()
 
 function initialize() {
@@ -23,5 +24,8 @@ function initialize() {
         initConfig().then(process.exit)
         return
     }
-    run(options)
+
+    if (checkArgs(options)) {
+        run(options)
+    }
 }
