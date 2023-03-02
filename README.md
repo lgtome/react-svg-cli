@@ -57,20 +57,32 @@ react-svg-cli ... -e .js
 react-svg-cli ... --extension=.js
 ```
 
+_**-f $PATH**_ or _**--file=$PATH**_ - path to IN file (svg)
+
+```sh
+react-svg-cli ... -f ./examples/test/test.svg
+
+react-svg-cli ... --file=./examples/test/test.svg
+```
+
 ## <a name="screenshots"></a>Screenshots
 
 ### Example of in svg file:
 
 <center>
-  <img src="https://raw.githubusercontent.com/lgtome/react-svg-cli/master/assets/inSvg.png" alt="in" /> 
+  <img src="https://raw.githubusercontent.com/lgtome/react-svg-cli/master/assets/inSvg.png" alt="in" />
 </center>
 
 ### Example of out svg component file:
 
 <center>
-  <img src="https://raw.githubusercontent.com/lgtome/react-svg-cli/master/assets/outComponent.png" alt="out" /> 
+  <img src="https://raw.githubusercontent.com/lgtome/react-svg-cli/master/assets/outComponent.png" alt="out" />
 </center>
 
 ## <a name="contribution"></a>Contribution
 
 Show your ❤️ and support by giving a ⭐. Any suggestions, issues or PR's are welcome!
+
+```
+
+```

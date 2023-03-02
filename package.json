@@ -5,7 +5,9 @@
     "license": "MIT",
     "scripts": {
         "dev": "node ./index.js",
-        "ex": "node ./bin/execute.js -o ./examples/outDir -d ./examples/test"
+        "ex": "node ./bin/execute.js -o ./examples/outDir -d ./examples/test",
+        "ex:f": "node ./bin/execute.js -o ./examples/outDir -f ./examples/test/test.svg",
+        "ex:w": "node ./bin/execute.js -o ./examples/outDir -f ./examples/test -w"
     },
     "dependencies": {
         "minimist": "^1.2.8",
